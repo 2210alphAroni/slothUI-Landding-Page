@@ -1579,6 +1579,10 @@ svg{
   font-family: "Inter", sans-serif;
 }
 
+.cta-buttons{
+  width: 130%;
+}
+
   .btn-outline,
   .btn-filled {
     width: 100%;
@@ -1590,16 +1594,21 @@ svg{
 
    .cta-text h2{
     text-align: left;
+    font-size: 1.5rem;
   }
 
   .cta-text p{
     text-align: left;
+    font-size: 1rem;
+
   }
 
 
   .svg-cta{
   display: block;
-  width: 100%;
+  width: 120%;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-bottom p {
