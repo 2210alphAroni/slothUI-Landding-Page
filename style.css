@@ -645,7 +645,7 @@ body {
   gap: 10px;
 }
 
-.profile img {
+.profile svg {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -999,12 +999,10 @@ body {
 
   .cta-section {
   background-color: #EEF2FF;
-  padding: 60px 0;
   font-family: "Inter", sans-serif;
 }
 
   .cta-container {
-    flex-direction: column;
     text-align: center;
   }
 
