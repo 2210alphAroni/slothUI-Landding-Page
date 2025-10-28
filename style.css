@@ -909,20 +909,21 @@ body {
 }
 
 .cta-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 50px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:14rem;
+
 }
 
 /* LEFT TEXT AREA */
 .cta-text {
   flex: 1 1 500px;
   max-width: 550px;
+  padding-left: 5rem;
 }
 
 .cta-text h2 {
@@ -978,11 +979,12 @@ body {
 }
 
 .cta-images {
-  flex: 1 1 450px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end ;
-  position: relative;
+    flex: 1 1 450px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    max-width: 40rem;
   
 }
 
@@ -1589,6 +1591,7 @@ svg{
   .cta-text p{
     text-align: left;
   }
+
 
   .svg-cta{
   display: block;
