@@ -999,7 +999,7 @@ body {
 
   .cta-section {
   background-color: #EEF2FF;
-  padding: 100px 0;
+  padding: 60px 0;
   font-family: "Inter", sans-serif;
 }
 
@@ -1008,10 +1008,13 @@ body {
     text-align: center;
   }
 
-  .svg-cta{
-  display: block;
-  width: 100%;
-}
+    .svg-cta{
+    display: block;
+    width: 100%;
+    transform: scale(1.5); 
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
+  }
 
   .cta-images .cta{
     display: none;
@@ -1023,6 +1026,10 @@ body {
     width: 100%;
     max-width: 350px;
     margin: 0 auto;
+
+    transform: scale(1.3); 
+    transform-origin: center;
+    transition: transform 0.3s ease-in-out;
   }
 
   .btn-outline,
@@ -1032,6 +1039,18 @@ body {
 
   .cta-text {
     text-align: center;
+  }
+
+  .cta-text h2 {
+    font-size: 35px;
+    line-height: 1.3;
+    text-align: left;
+  }
+
+  .cta-text p {
+    font-size: 16px; 
+    line-height: 1.8;
+    text-align: left;
   }
 }
 /* CTA section end */
@@ -1592,7 +1611,7 @@ svg{
   padding-right: 5.5rem;
 }
 
-   .cta-text h2{
+   /* .cta-text h2{
     text-align: left;
     font-size: 1.5rem;
   }
@@ -1601,7 +1620,7 @@ svg{
     text-align: left;
     font-size: 1rem;
 
-  }
+  } */
 
 
   .svg-cta{
