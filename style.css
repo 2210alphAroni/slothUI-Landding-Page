@@ -1118,10 +1118,6 @@ body {
   display: block;
 }
 
-.back-to-top .svg-foot{
-  display: none;
-}
-
 
 /* Responsive Footer */
 
@@ -1131,14 +1127,6 @@ body {
     grid-template-columns: repeat(6, 1fr);
     gap: 30px;
   }
-
-  .back-to-top svg{
-  display: none;
-}
-
-.back-to-top .svg-foot{
-  display: block;
-}
 
 }
 
@@ -1159,13 +1147,6 @@ body {
     font-size: 13px;
   }
 
-    .back-to-top svg{
-  display: none;
-}
-
-.back-to-top .svg-foot{
-  display: block;
-}
 }
 
 /* Mobile devices (<=480px) */
@@ -1187,14 +1168,6 @@ body {
     transform: none;
     margin-top: 10px;
   }
-
-    .back-to-top svg{
-  display: none;
-}
-
-.back-to-top .svg-foot{
-  display: block;
-}
 }
 
 /* end footer section */
