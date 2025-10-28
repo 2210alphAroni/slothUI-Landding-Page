@@ -262,7 +262,7 @@ body {
 /* Optional: Media query for very small screens to give more room */
 @media (max-width: 500px) {
     .social-proof .image {
-        max-width: 120px; 
+        max-width: 100px; 
         margin: 10px 10px;
     }
 }
@@ -981,7 +981,7 @@ body {
   flex: 1 1 450px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-end ;
   position: relative;
   
 }
@@ -1181,6 +1181,7 @@ body {
 /* --- Mobile View--- */
 /* Responsive */
 @media (max-width: 900px) {
+
   .container {
     flex-direction: column;
     text-align: left;
@@ -1390,7 +1391,7 @@ body {
     }
 
     .headline{
-        font-size: 38px;
+        font-size: 29px;
     }
 
     .app-downloads svg{
