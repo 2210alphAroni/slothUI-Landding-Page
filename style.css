@@ -1584,6 +1584,10 @@ svg{
     width: 100%;
   }
 
+  .cta-text {
+  padding-right: 5rem;
+}
+
    .cta-text h2{
     text-align: left;
   }
