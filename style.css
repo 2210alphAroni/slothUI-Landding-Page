@@ -1219,9 +1219,9 @@ body {
   display: none;
 }
 
-.feature .des{
-    display: block;
-}
+  .feature .des{
+      display: block;
+  }
 
   .image-content img {
     margin-top: 30px;
@@ -1419,6 +1419,8 @@ body {
 
     .app-downloads .svgpro{
         display: block;
+        width: 100%;
+        transform: scale(1.2); 
     }
 
 
@@ -1444,10 +1446,10 @@ body {
   display: block;
 }
 
-.image-content img {
-    margin-top: 30px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  }
+  .image-content img {
+      margin-top: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
 
   .section-header .tag {
   display: inline-block;
@@ -1608,17 +1610,6 @@ svg{
   .cta-text {
   padding-right: 5.5rem;
 }
-
-   /* .cta-text h2{
-    text-align: left;
-    font-size: 1.5rem;
-  }
-
-  .cta-text p{
-    text-align: left;
-    font-size: 1rem;
-
-  } */
 
 
   .svg-cta{
