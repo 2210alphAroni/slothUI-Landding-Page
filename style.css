@@ -1580,7 +1580,7 @@ svg{
 }
 
 .cta-buttons{
-  width: 130%;
+  width: 100%;
 }
 
   .btn-outline,
@@ -1589,7 +1589,7 @@ svg{
   }
 
   .cta-text {
-  padding-right: 5rem;
+  padding-right: 5.5rem;
 }
 
    .cta-text h2{
@@ -1606,7 +1606,7 @@ svg{
 
   .svg-cta{
   display: block;
-  width: 120%;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
